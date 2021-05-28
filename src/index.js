@@ -6,9 +6,6 @@ const a = 21
 const b = 23
 class Index extends Component {
 
-    sub=()=>{
-        console.log(a-b)
-    }
     mult=()=>{
         console.log(a*b)
     }
@@ -18,7 +15,6 @@ class Index extends Component {
     render() {
         return (
             <div className={'container col-md-4 mt-4'}>
-                <button className={'btn btn-dark mx-3'} onClick={this.sub}>a-b</button>
                 <button className={'btn btn-dark mx-3'} onClick={this.mult}>a*b</button>
                 <button className={'btn btn-dark mx-3'} onClick={this.divition}>a/b</button>
             </div>
